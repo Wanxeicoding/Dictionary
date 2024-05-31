@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #36393f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #2f3136;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #7289da;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 10px;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7289da;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #677bc4;
+}
+
+#result {
+    text-align: left;
+    max-height: 300px; /* Limiting the height */
+    overflow-y: auto; /* Adding scrolling */
+    display: none; /* Initially hide the result */
+    margin-top: 20px;
+    padding: 10px; /* Added padding for better appearance */
+    border-radius: 10px; /* Make the box within the container round */
+    background-color: #40444b;
+    
+}
+
+.result-container {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px; /* Make the box within the container round */
+}
+
+.result-word {
+    font-size: 1.5em;
+    color: #7289da;
+    margin-bottom: 10px;
+    text-transform: uppercase; /* Convert to uppercase */
+    font-weight: bold; /* Make it bold */
+    margin-left: 30px;
+    display: block; /* Ensure it doesn't align with bullets */
+}
+
+.definition {
+    margin-bottom: 10px;
+}
+
+.definition-number {
+    font-weight: bold;
+    color: #fff;
+    display: inline-block; /* Ensure it doesn't align with bullets */
+    margin-right: 5px; /* Add some spacing between number and text */
+}
+
+.definition-text {
+    margin-left: 10px;
+    font-weight: bold;
+}
